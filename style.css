@@ -96,7 +96,11 @@ nav{
     border-radius: 45% 9%;
     background-color: #5b64cb;
     box-shadow: 3px 7px 7px 0.5px whitesmoke;
-    /* transform: all 0.4s ease-in-out; */
+    animation: 1,5s infinite anim;
+}
+@keyframes anim{
+    0%{transform: rotateZ(0);}
+    100%{transform: rotateZ(90deg);}
 }
 
 /* utility classes */
